@@ -71,10 +71,10 @@ data.forEach(element => {
     career.classList.add('block__second-career');
     career.textContent = element.career;
 
-    const films = document.createElement('submit');
+    const films = document.createElement('a');
     films.classList.add('block__second-films');
-    films.textContent = 'Фильмография';
-    // films.src = element.films;
+    films.textContent =   "Фильмография";
+    films.href = element.films;
 
     const filmsEl = document.createElement('div');
     filmsEl.classList.add('films');

@@ -29,9 +29,9 @@
     color: white;
     border-bottom: solid rgb(214, 7, 7) 1px;
   }
+    a {
+      color: white;
+    }
   .header , h2{
     color:aqua;
   }
-  /* .h2 {
-    color: aqua;
-  } */
